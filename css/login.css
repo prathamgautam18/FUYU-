@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flash-message {
+    background-color: #f7d794;
+    color: #833471;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fd79a8, #afffcc);
+    padding: 10px;
+    background-image: url("/projectdemo/img/login.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    max-width: 460px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.671);
+   
+}
+.logo{
+    height: 100px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.container .title {
+    height: 80px;
+    width: 200px;
+    /* Adjust the image styling as needed */
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container form .user-details .input-box {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container .user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.container .user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.container .user-details .input-box input:focus {
+    border-color: #3ae2ee;
+}
+
+.container .button {
+    height: 45px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .button input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background: linear-gradient(135deg, #00a8ff, #f368e0);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.container .button input:hover {
+    background: linear-gradient(-135deg, #48dbfb, #ee5253);
+}
+
+.container .signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .signup-link a {
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.container .signup-link a:hover {
+    color: #3ae2ee;
+}
+.flash-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 999;
+    display: none;
+}
+.forgot-password-link {
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.forgot-password-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+

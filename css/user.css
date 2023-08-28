@@ -1,0 +1,440 @@
+*{
+  margin: 0 0;
+  padding: 0 0;
+  
+  font-family: sans-serif;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+.img-responsive{
+
+  width: 100%;
+  height: 60px;
+  margin-left: 0%;
+  float: left;
+}
+.img-responsive1{
+  width: 100%;
+  margin-left: 0%;
+  
+}
+.img-curve{
+  border-radius: 15px;
+}   
+
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-white{
+  color: white;
+}
+
+.clearfix{
+  clear: both;
+  float: none;
+}
+
+a{
+  color: #ff6b81;
+  text-decoration: none;
+}
+a:hover{
+  color: #ff4757;
+}
+
+.btn{
+  padding: 1%;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.primary{
+  background-color: #ff6b81;
+  color: white;
+  cursor: pointer;
+}
+.primary:hover{
+  color: white;
+  background-color: #ff4757;
+}
+h2{
+  color: #224898;
+  font-size: 40px;
+  margin-bottom: 2%;
+  text-align: center;
+}
+h3{
+  font-size: 24px;
+}
+.float-container{
+  position: relative;
+}
+.float-text{
+  position: absolute;
+  bottom: 50px;
+  left: 40%;
+}
+fieldset{
+  border: 1px solid white;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.navbar .icons div{
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  float :right;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.navbar .icons div:hover{
+  background: orange;
+  color: #fff;
+}
+
+.icons #menu-btn{
+  display: none;
+}
+
+
+
+/* CSSS for navbar section */
+
+
+.navbar{
+  background-color: white;
+
+}
+.logo{
+  width: 7%;
+  float: left;
+  border-radius: 20%;
+}
+.menu{
+  background-color: white;
+  display: flex;
+}
+.menu ul{
+      display: flex;
+  list-style-type: none;
+}
+
+.menu ul li{
+  padding: 20px;
+  font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.search-food{
+  background-image: url(/images/croacine.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+.food-search{
+  background-image: url(../img/bakery.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+  width: 50%;
+  padding: 1%;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+  padding: 4% 0;
+}
+
+.box-3{
+  width: 28%;
+  float: left;
+  margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+  background-color: lightblue;
+  padding: 4% 0;
+}
+.food-menu-box{
+  width: 43%;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.food-menu-img{
+  width: 20%;
+  float: left;
+}
+
+.food-menu-desc{
+  width: 70%;
+  float: left;
+  margin-left: 8%;
+}
+
+.food-price{
+  font-size: 20px;
+  margin: 2% 0;
+}
+.food-detail{
+  font-size: 16px;
+  color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+  list-style-type: none;
+}
+.social ul li{
+  display: inline;
+  padding: 1%;
+}
+
+/* for Order Section */
+.order{
+  width: 50%;
+  margin: 0 auto;
+}
+.input-responsive{
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.order-label{
+  margin-bottom: 1%; 
+  font-weight: bold;
+}
+
+.search-food img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-size: contain;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+  .logo{
+      width: 80%;
+      height: 100%;
+      float: none;
+      margin: 1% auto;
+  }
+
+  .menu ul{
+      text-align: center;
+  }
+
+
+  .food-search input[type="search"]{
+      width: 90%;
+      padding: 2%;
+      margin-bottom: 3%;
+  }
+
+  .btn{
+      width: 91%;
+      padding: 2%;
+  }
+
+  .food-search{
+      padding: 10% 0;
+  }
+
+  .categories{
+      padding: 20% 0;
+  }
+  h2{
+      margin-bottom: 10%;
+  }
+  .box-3{
+      width: 100%;
+      margin: 4% auto;
+  }
+
+  .food-menu{
+      padding: 20% 0;
+  }
+
+  .food-menu-box{
+      width: 90%;
+      padding: 5%;
+      margin-bottom: 5%;
+  }
+  .social{
+      padding: 5% 0;
+  }
+  .order{
+      width: 100%;
+  }
+}
+
+
+
+.profile {
+  margin-left: 740px;
+  position: relative;
+  display: flex ;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 25px;
+  height: 25px;
+  border-radius: 20%;
+  text-align: right;
+  float: right;
+  margin-top: 20px;
+}
+.profile .heading{
+margin-top: 24px;
+margin-left: 5px;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 60px;     right: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: none;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+
+.social{
+  background: white;
+
+}
+.profile-container {
+  height: 500px;;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: lightblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-container p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.profile-container strong {
+  font-weight: bold;
+}
+.tablecontainer {
+  margin: 20px auto;
+  max-width: 800px;
+  height: fit-content;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+.submit {
+            margin:20px 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .submit:hover {
+            background-color: #45a049;
+        }
+
+
+
+

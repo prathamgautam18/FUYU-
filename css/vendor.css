@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  nav {
+    
+    background: rgb(238, 255, 0);
+    width: 100px;
+    
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .logo {
+    text-align: center;
+    margin: 10px 0 0 10px;
+  }
+  
+  .logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    display: block;
+    padding: 10px;
+  }
+  
+  a:hover {
+    background: #eee;
+  }
+  
+  .logout {
+    margin-top: auto;
+  }
+  
+  .profile-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  strong {
+    color: #007bff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .tablecontainer {
+    margin-left: 200px;
+  }
+  
+  /* Additional CSS for the form without affecting the navigation bar */
+  /* Add some spacing to the form elements */
+  form {
+    margin-top: 20px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  /* Style the update button */
+  form input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }  
